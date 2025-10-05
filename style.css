@@ -1,11 +1,24 @@
-html {
-  scroll-behavior: smooth;
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
 }
 
-.tall-section {
-  background-color: #e6f0ff;
-  padding: 20px;
-  min-height: 600px;
+h2 {
+  font-weight: bold;
   margin-bottom: 20px;
-  border: 1px solid #ccc;
+}
+
+.menu-item h3 {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav .nav-item {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
 }
